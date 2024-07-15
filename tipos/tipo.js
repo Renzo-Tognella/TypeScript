@@ -19,6 +19,7 @@ let endereco = ["Av principal", 99];
 console.log(endereco);
 //enums enumeração 
 var Cor;
+//enums enumeração 
 (function (Cor) {
     Cor[Cor["Cinza"] = 0] = "Cinza";
     Cor[Cor["Verde"] = 1] = "Verde";
@@ -52,13 +53,11 @@ let usuario = {
 //     age = 12
 // }
 let list = [];
-list.push(usuario);
 console.log(usuario);
 usuario = {
     nome: "maria",
     idade: 32
 };
-list.push(usuario);
 console.log(usuario);
 console.log(list);
 let funcionario2 = {
@@ -124,3 +123,4 @@ let lista = [];
 lista.push(contato1);
 lista.push(contato2);
 console.log(lista);
+//# sourceMappingURL=tipo.js.map

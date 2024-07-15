@@ -61,7 +61,7 @@ let usuario: {nome: string, idade:number} = {
 //     age = 12
 // }
 let list = [] 
-list.push(usuario)
+
 
 console.log(usuario)
 
@@ -70,7 +70,6 @@ usuario = {
     idade: 32
 }
 
-list.push(usuario)
 console.log(usuario) 
 console.log(list) 
 
